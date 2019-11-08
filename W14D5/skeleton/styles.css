@@ -1,0 +1,231 @@
+html, body {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
+.splash-main-image {
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+
+.header-list {
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+}
+
+.header-list > a {
+  background-color: rgba(255, 255, 255, 0.721);
+  font-size: 14px;
+  text-decoration: none;
+  margin: 10px;
+  padding: 0px 15px;
+  padding-bottom: 8px;
+  height: 14px;
+  border: 2px solid white;
+  color: black;
+  border-radius: 5px;
+}
+
+.header-list > a:hover {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.current-user {
+  color: white;
+  margin-right: 15px;
+  position: relative;
+  bottom: 5px;
+}
+
+.main-description {
+  background-color: white;
+  position: relative;
+  top: 15px;
+  height: 80px;
+  padding-left: 50px;
+  display: flex;
+}
+
+.main-description > p {
+  padding-top: 15px;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+.main-title {
+  padding-top: 10px;
+  font-size: 40px;
+  margin-right: 16px;
+  margin-left: 10px;
+  letter-spacing: 0.2mm;
+  font-weight: 900;
+}
+
+.footer-list {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.footer-list > a {
+  text-decoration: none;
+  color: gray;
+  margin-left: 15px;
+}
+.footer-list > a:hover {
+  color: black;
+}
+
+/* ========================================================================= */
+
+
+html body {
+  width: 100vw;
+}
+
+.index-header {
+  font-size: 12px;
+  font-family: 'Noto Sans SC', sans-serif;
+  display: flex;
+  width: 95%;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.index-logo {
+  width: 30px;
+  height: 30px;
+  margin-top: 3px;
+  margin-right: 8px;
+  /* margin-top: 10px; */
+}
+
+.index-title {
+  font-size: 23px;
+}
+
+.idx-title-divider {
+  height: 25px;
+  margin-top: 5px;
+  margin-left: 13px;
+  margin-right: 13px;
+  border-right: 2px solid black;
+}
+
+.index-description {
+  font-size: 14px;
+  position: relative;
+  bottom: 6px;
+} 
+
+.index-nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  width: 99%;
+  padding-bottom: 20px;
+  position: relative;
+  right: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.index-nav > a {
+  color: gray;
+  margin: 0px 10px;
+  text-decoration: none;
+  border-bottom: 1px solid gray;
+}
+
+.index-nav > a:hover {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.index-current-user {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 14px;
+  color: gray;
+}
+
+
+.index-forms {
+  margin-top: 40px;
+  margin-left: 15px;
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  height: 200px;
+}
+
+form {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-right: 50px;
+}
+
+form > input {
+  margin: 5px;
+  height: 15px;
+}
+
+.all-lists {
+  width: 95%;
+  margin-left: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-ul {
+  
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-ul > li {
+  margin: 2px;
+}
+
+.list-div {
+  margin: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 25%;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.fav-quotes {
+  width: 60%;
+  margin: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 50%;
+  padding: 0px 20px;
+  padding-top: 10px;
+  font-size: 14px;
+  font-size: 14px;
+}
+.quotes-list {
+  font-size: 13px;
+}
+
+.copyright-footer {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  font-size: 12px;
+  color: gray;
+}
